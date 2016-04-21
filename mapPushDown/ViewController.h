@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BackView.h"
 
 @interface ViewController : UIViewController
+@property (nonatomic , strong) BackView *backView;
 
 
 @end
